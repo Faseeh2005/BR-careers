@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        My first web page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="br logo" src="banner.jpg">
+    </div>
+    <img id="banner" src="logo.jpg" alt="Banner" height="240">
+    <h1> About Business Recorder</h1>
+
+    <div id="about">
+        <div id="description">
+            <p>
+                Business Recorder is an English-language financial daily newspaper in Pakistan, founded by Muhammad
+                Ahmed Zuberi
+                in <b>1965</b>.
+                The publication is owned by the Business Recorder Group.
+                Newspaper founder's eldest son, Wamiq Zuberi, is the editor of the newspaper, and chief executive
+                officer of the
+                Business Recorder Group.
+            </p>
+
+        </div>
+        <div id="team">
+            <img src="team.jpg" id="team-image" alt="Team">
+        </div>
+    </div>
+
+    <div id="recorder-tv">
+        <div id = "detail">
+             <p>
+        RECORDER TELEVISON
+    <ol>
+        <li>
+            <a href="https://www.aaj.tv/" target="_blank">
+                Aaj News
+            </a>
+
+        </li>
+        <li>
+            <a href="https://www.aajentertainment.tv/" target="_blank">
+                Aaj Entertainment
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/channel/UCSIBksFY-1O_bf_GHl8LYGg" target="_blank">
+                Play Entertainment
+            </a>
+        </li>
+    </ol>
+    </p>
+        </div>
+    </div>
+   
+
+    <h2>Job Opportunities</h2>
+    
+    <div id="jobs">
+        <table id="jobs-table">
+        <tr class="jobs-header">
+            <th rowspan="2">Job Tilte</th>
+            <th colspan="2">Location</th>
+            <th rowspan="2">Salary</th>
+            <th rowspan="2">Posted On</th>
+        </tr>
+
+        <tr class="jobs-header">
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr class = "jobs-data">
+            <td>Frontend Developer</td>
+            <td>Karachi</td>
+            <td>Pakistan</td>
+            <td>Rs 80,000</td>
+            <td>Mar 3,2025</td>
+        </tr>
+
+        <tr class = "jobs-data">
+            <td>Backend Developer</td>
+            <td>Lahore</td>
+            <td>Pakistan</td>
+            <td>Rs 95,000</td>
+            <td>Apr 16,2025</td>
+        </tr>
+
+        <tr class = "jobs-data">
+            <td>Editor</td>
+            <td>Islamabad</td>
+            <td>Pakistan</td>
+            <td>Rs 70,000</td>
+            <td>May 9,2025</td>
+        </tr>
+    </table>
+
+    </div>
+
+    
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form id="app-form" action="https://formbold.com/s/9m2q5" method="POST">
+            <div>
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required>
+            </div>
+            
+            <div>
+               <label for="email">Email</label><br>
+               <input type="email" id="email" name="Email" required placeholder="xyz@example.com"> 
+            </div>
+
+            <div>
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+92">
+            </div>
+
+            <div>
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div>
+                <label>Position Applied for</label><br>
+                <select id="position" name="Position applied" required>
+                    <option value="">Select position</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="editor">Editor</option>
+                </select>  
+            </div>
+
+            <div>
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <div>
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5" required placeholder="Explain why you are suitale for this job...."></textarea>
+            </div>
+
+             <div>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to these terms and conditions
+                </label>
+             </div>
+
+             <div>
+                <input type="submit" value="Submit Application">
+             </div>
+
+
+        </form>
+    </div>
+   
+    
+    
+    <div id="footer">
+         <ul id="footer-links">
+        <li>
+            <a href="https://x.com/brecordernews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank">
+                Twitter
+            </a>
+        </li>
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Business_Recorder" target="_blank" Wikipedia>
+                Wikipedia
+            </a>
+        </li>
+        <li>
+            <a href="https://www.brecorder.com/" target="_blank">
+                Newspaper
+            </a> 
+        </li>
+    </ul>
+    <span>© 2025 Business Recorder</span>
+    </div>
+</body>
+
+</html>
